@@ -24,19 +24,19 @@ const Navbar = () => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light"
-      style={{ "backgroundColor": "#e3f2fd" }}
+      style={{ "backgroundColor": "#b4b4b4" }}
     >
       <div className="container-fluid">
-        <span className="navbar-brand" style={{ color: "#2196f3" }}>
-          Todo
+        <span className="navbar-brand" style={{ color: "#255500" }}>
+          Todo App
         </span>
-        <span style={{ color: "#1769aa" }}>
-          {token ? `👋Welcome ${name}` : ""}
+        <span style={{ color: "#255500" }}>
+          {token ? `Hi👋 ${name}, Welcome😇` : ""}
         </span>
         <span>
           {token ? (
             <button
-              className="btn btn-primary"
+              className="btn btn-dark"
               title="Logout"
               onClick={handleLogout}
             >

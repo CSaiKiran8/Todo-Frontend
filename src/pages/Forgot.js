@@ -48,10 +48,10 @@ const Forgot = () => {
           />
         </div>
         <div className="d-flex justify-content-center align-items-center flex-column">
-          <button className="btn btn-primary" type="submit">
+          <button className="btn btn-secondary" type="submit">
             Send Otp
           </button>
-          <Link to="/login">Login</Link>
+          <Link to="/login" style={{ color: "#255500" }}>Login</Link>
         </div>
       </form>
     </div>

@@ -61,7 +61,7 @@ const Reset = () => {
             />
           </div>
           <div className="d-flex justify-content-center">
-            <button className="btn btn-primary" type="submit">
+            <button className="btn btn-secondary" type="submit">
               Reset
             </button>
           </div>

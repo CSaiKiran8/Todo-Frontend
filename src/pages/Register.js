@@ -75,10 +75,10 @@ const Register = () => {
             </div>
           </div>
           <div className="d-flex justify-content-center align-items-center flex-column">
-            <button className="btn btn-primary m-2" type="submit">
+            <button className="btn btn-secondary m-2" type="submit">
               Register
             </button>
-            <Link to="/login">Login</Link>
+            <Link to="/login" style={{ color: "#255500" }}>Login</Link>
           </div>
         </form>
       </div>

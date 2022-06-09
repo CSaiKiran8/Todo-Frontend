@@ -72,7 +72,7 @@ function App() {
       <div className="m-2">
         <h1
           className="d-flex justify-content-center mt-5"
-          style={{ color: "#2196f3" }}
+          style={{ color: "#417a3c" }}
         >
           ToDo App
         </h1>
@@ -85,7 +85,7 @@ function App() {
             required
             onChange={(e) => setText(e.target.value)}
           />
-          <button className="btn btn-primary" onClick={addUpdateTodo}>
+          <button className="btn btn-secondary" onClick={addUpdateTodo}>
             {isUpdating ? "Update" : "Add"}
           </button>
         </div>

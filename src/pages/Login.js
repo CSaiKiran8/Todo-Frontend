@@ -68,14 +68,14 @@ const Login = () => {
             />
           </div>
           <div className="d-flex justify-content-center align-items-center flex-column m-3">
-            <button className="btn btn-primary btn-sm" type="submit">
+            <button className="btn btn-secondary btn-sm" type="submit">
               Sign In
             </button>
             <button className="btn btn-light">
-              <Link to="/forgot">Forget Password?</Link>
+              <Link to="/forgot" style={{ color: "#255500" }}>Forget Password?</Link>
             </button>
             <button className="btn btn-light">
-              <Link to="/register">REGISTER</Link>
+              <Link to="/register" style={{ color: "#255500" }}>REGISTER</Link>
             </button>
           </div>
         </form>

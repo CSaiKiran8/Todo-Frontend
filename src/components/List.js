@@ -1,15 +1,15 @@
-import EditIcon from "@mui/icons-material/Edit";
-import DeleteIcon from "@mui/icons-material/Delete";
+import ModeEditOutlineTwoToneIcon from '@mui/icons-material/ModeEditOutlineTwoTone';
+import DeleteTwoToneIcon from '@mui/icons-material/DeleteTwoTone';
 import "./list.css";
 
 export default function List({ text, remove, update }) {
   return (
     <div className="con">
       <div className="group">
-        <div className="text">{text}</div>
+        <div className="text" style={{ color: "#7800ff" }}>{text}</div>
         <div className="icon">
-          <EditIcon color="warning" onClick={update} />
-          <DeleteIcon color="error" onClick={remove} />
+          <ModeEditOutlineTwoToneIcon color="dark" onClick={update} />
+          <DeleteTwoToneIcon color="dark" onClick={remove} />
         </div>
       </div>
     </div>
